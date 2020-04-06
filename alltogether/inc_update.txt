@@ -1,0 +1,15 @@
+server spiderman.netmode.ece.ntua.gr
+zone cfinc.example.com
+update add 88.cfinc.example.com 86400 IN TXT "del 2f9 1233,1341"
+update add 89.cfinc.example.com 86400 IN TXT "add 3245 867,859"
+update add 90.cfinc.example.com 86400 IN TXT "add 229b 65,1648"
+update add 91.cfinc.example.com 86400 IN TXT "add a36 382,504"
+update add 92.cfinc.example.com 86400 IN TXT "add 2ec6 892,1953"
+update add 93.cfinc.example.com 86400 IN TXT "add 2887 1870,30"
+update add 94.cfinc.example.com 86400 IN TXT "del 937 1660,1448"
+update add 95.cfinc.example.com 86400 IN TXT "del 312c 973,1491"
+update add 96.cfinc.example.com 86400 IN TXT "del 22fa 828,363"
+update add 97.cfinc.example.com 86400 IN TXT "del 21e4 816,109"
+update add 98.cfinc.example.com 86400 IN TXT "del 23f4 2238,1054"
+show
+send

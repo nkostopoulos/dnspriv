@@ -1,0 +1,22 @@
+NTUA Bloom Filter
+The zone reload and thaw was successful.
+Created Initial Bloom Filter in:  0.014901161193847656
+Changes incorporated for Bloom Filter in:  0.03938460350036621
+Zone File Created in:  0.02536940574645996
+Ru Bloom Filter
+The zone reload and thaw was successful.
+Created Initial Bloom Filter in:  25.99376130104065
+Changes incorporated for Bloom Filter in:  25.853354692459106
+Zone File Created in:  20.14447546005249
+NTUA Cuckoo Filter
+The zone reload and thaw was successful.
+The zone reload and thaw was successful.
+0.06955337524414062
+Changes incorporated for Cuckoo Filter in:  0.02856755256652832
+Zone File Created in:  0.021956443786621094
+Ru Cuckoo Filter
+The zone reload and thaw was successful.
+The zone reload and thaw was successful.
+56.13855767250061
+Changes incorporated for Cuckoo Filter in:  0.07835745811462402
+Zone File Created in:  15.143708944320679

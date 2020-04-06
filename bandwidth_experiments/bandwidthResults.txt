@@ -1,0 +1,63 @@
+Experiments for error: 0.002 - 0.003, buckets = 4 and fingerprint size = 12 bits
+Bloom Filter with 3 hashes
+
+netmode.ntua.gr 
+capacity = 85
+304 distinct names
+load factor 0.894
+option 1: 2526 Bytes = 2.47 KB
+option 2: 1029 Bytes = 1.01 KB
+Bloom Filter zone: 1853 bytes = 1.81 KB
+Bloom Filter filtering: 732 B = 0.714 KB
+Cuckoo Filter: 510 B = 0.498 KB
+
+
+ru zone
+capacity = 1479000
+5325231 distinct names
+load factor 0.9
+option 1: 45943756 = 43.82 MB
+option 2: 16915105 Bytes = 16.13 MB
+Bloom Filter Zone File: 29642012 = 28.27 MB
+Bloom Filter: 12.23 MB
+Cuckoo Filter: 8.46 MB
+
+ntua.gr zone
+capacity = 2305
+8294 distinct names
+load factor 0.9
+option 1: 65676 = 64.14 KB
+option 2: 26171 = 25.56 KB
+Bloom Filter zone file: 45538 Bytes = 44.47 KB
+Bloom Filter: 19.5 KB
+Cuckoo Filter: 13.51 KB
+
+tatar zone
+capacity = 241
+870 distinct names
+load factor 0.9
+option 1: 6845 = 6.68 KB
+option 2: 2755 = 2.69 KB
+Bloom Filter zone file: 4915 Bytes = 4.79 KB
+Bloom Filter: 2.05 KB
+Cuckoo Filter: 1.41 KB
+
+su zone
+capacity = 30477
+109719 distinct names
+load factor 0.9
+option 1: 898324 = 877.27 KB
+option 2: 346466 = 338.35 KB
+Bloom Filter zone file: 603881 = 589.73 KB
+Bloom Filter: 257.98 KB
+Cuckoo Filter: 178.58 KB
+
+se zone
+capacity = 385469
+1387690 distinct names
+load factor 0.9
+option 1: 11767822 = 11.22 MB
+option 2: 4400376 = 4.19 MB
+Bloom Filter Zone File: 7690124 Bytes = 7.33 MB
+Bloom Filter: 3.19 MB
+Cuckoo FIlter: 2.21 MB
