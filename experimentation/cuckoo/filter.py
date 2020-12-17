@@ -123,7 +123,8 @@ class CuckooTemplate():
         # TODO: this is partial-key Cuckoo hashing, investigate if it is
         # possible to devise a novel approach in which there could be more
         # than 2 indices
-        h_value = (index ^ self.index(fingerprint.tobytes())) % self.capacity
+        ##h_value = (index ^ self.index(fingerprint.tobytes())) % self.capacity
+        h_value = (self.index(fingerprint.tobytes()) - index) % self.capacity
         indices.append(h_value)
 
         for index in indices:
@@ -247,7 +248,8 @@ class CuckooFilter(CuckooTemplate):
             fingerprint_stack.append(fingerprint)
 
             # Compute the potential bucket to move the swapped fingerprint to
-            index = (index ^ self.index(fingerprint.tobytes())) % self.capacity
+            ##index = (index ^ self.index(fingerprint.tobytes())) % self.capacity
+            index = (self.index(fingerprint.tobytes()) - index) % self.capacity
 
             # Save the index here so we can restore it later
             index_stack.append(index)
